@@ -17,7 +17,7 @@ Amazon Price Tracker
     SENDER_EMAIL=your_email@gmail.com
     SENDER_PASSWORD=your_email_password
 
-4. Update the recipient_email and product_url variables in the script with your desired values.
+4. Update the recipient_email, product_url and last price value(last_price.txt) variables in the script with your desired values.
 
 5. run the script:
     python price_tracker.py
