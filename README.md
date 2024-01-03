@@ -13,16 +13,18 @@ Amazon Price Tracker
     cd amazon-price-tracker
     pip install -r requirements.txt
 
-3. Create a .env file in the project root and add your sender email and password:
+3. Update your user agent and accept language
+   go to https://myhttpheader.com/
+   header = {
+    "User-Agent": "Your User Agent",
+    "Accept-Language": "Your Accept Language",
+   }
+
+4. Create a .env file in the project root and add your sender email and password:
     SENDER_EMAIL=your_email@gmail.com
     SENDER_PASSWORD=your_email_password
 
-4. Update the recipient_email, product_url and last price value(last_price.txt) variables in the script with your desired values.
-
-5. run the script:
-    python price_tracker.py
-
-# To get the Sender email and sender password you need to
+   # To get the Sender email and sender password you need to
     Create a Gmail Account:
     If you don't have a Gmail account, you need to create one. Visit Gmail and sign up for a new account.
 
@@ -41,3 +43,10 @@ Amazon Price Tracker
     Enter a custom name for the app (e.g., "AmazonPriceTracker").
     Click "Generate."
     Copy the generated app password; you will use this as your SENDER_PASSWORD in the .env file.
+
+6. Update the recipient_email, product_url and last price value(last_price.txt) variables in the script with your desired values.
+
+7. run the script:
+    python price_tracker.py
+
+
