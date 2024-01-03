@@ -17,8 +17,8 @@ recipient_email = "Your email"
 product_url = "pruduct_url"
 
 header = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept-Language": "en,en-US;q=0.9",
+    "User-Agent": "Your User Agent",
+    "Accept-Language": "Your Accept Language",
 }
 
 response = requests.get(url=product_url)
